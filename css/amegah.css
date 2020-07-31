@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fluid-container{
+    width: 98%;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-shadow{
+    width: 95%;
+    margin: 0 auto;
+    padding: 0.4%;
+    box-shadow: 3px 5px 8px 4px #ccc;
+    -webkit-box-shadow: 3px 5px 8px 4px #ccc;
+    -moz-box-shadow: 3px 5px 8px 4px #ccc;
+
+}
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.center-text{
+    text-align: center;
+}
+.justify-text{
+    text-align: justify;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
